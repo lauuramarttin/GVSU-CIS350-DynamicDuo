@@ -1,4 +1,4 @@
-# Team Name
+# Dynamic Duo
 
 Project description (~1 paragraph)
 
