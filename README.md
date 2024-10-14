@@ -1,6 +1,6 @@
 # Dynamic Duo
 
-Project description (~1 paragraph)
+Train Network App
 
 ## Team Members and Roles
 
