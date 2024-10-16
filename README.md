@@ -11,4 +11,10 @@ Our project focuses on developing a train and passenger management system using 
 
 ## Prerequisites
 
+Python: It will be used to develop the code with functions and classes.
+SQL: It will be used to manage and query data in the database.
+Git: It will be used to control versions of the code and facilitate collaboration.
+Trello: It will be used to organize tasks and track the project's progress.
+HTML/CSS: They will be used to create the frontend, defining the structure and style.
+
 ## Run Instructions
