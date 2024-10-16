@@ -29,7 +29,13 @@ We will develop the train and passenger management system using the Agile method
 
 # Estimated Timeline
 
-(Figure out what your major milestones for this project will be, including how long you anticipate it *may* take to reach that point)
+Week 1: Define the Idea and Choose Functions: Define the project's objectives and select the key functionalities of the system.
+Week 2: Organization and Task Distribution: Distribute responsibilities among team members.
+Week 3: Develop the Database: Design and create the database structure using SQL.
+Week 4-6: Develop the Backend and Perform Backend Testing: Code the program with classes and fucntions in python and then test to verify it works correctly.
+Week 7-8:	Develop the Frontend: Create the user interface using HTML and CSS.
+Week 9:	Perform Frontend Testing and Collect Feedback:	Test the functionality and usability of the frontend.
+Week 10: Implement Improvements and Documentation
 
 # Anticipated Problems
 
