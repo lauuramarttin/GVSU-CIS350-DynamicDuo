@@ -39,6 +39,12 @@ We will develop the train and passenger management system using the Agile method
 
 # Anticipated Problems
 
-(Describe any problems you foresee that you will need to overcome)
+Data Management: We must ensure data integrity and security by implementing proper validation and error handling to prevent data loss.
+
+Integration Issues: Seamless integration of the frontend and backend may be difficult due to discrepancies in data formats or API responses, requiring thorough testing and clear communication.
+
+Frontend Development Challenges: Our lack of experience in frontend development could lead to difficulties in creating responsive designs and ensuring compatibility.
+
+Time Management: Balancing tasks within our 11-week timeline may be challenging, especially if unexpected delays arise, so we need to remain flexible and adapt our schedule as needed.
 
 Remember this is a living document is expected to be changed as you make progress on your project.
