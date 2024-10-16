@@ -1,6 +1,6 @@
-Team name:
+Team name: Dynamic Duo
 
-Team members:
+Team members: Matthew Tonder and Laura Martin
 
 # Introduction
 
