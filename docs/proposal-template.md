@@ -25,7 +25,7 @@ Trello: A project management tool for organizing tasks and collaboration.
 
 # Method/Approach
 
-(What is your estimated "plan of attack" for developing this project)
+We will develop the train and passenger management system using the Agile methodology, which allows us to adapt to changes and focus on iterative development. Each sprint will begin with planning sessions to prioritize tasks, such as adding and removing passenger trips. We will implement weekly meetings to ensure clear communication and address any challenges. At the end of each sprint, we’ll review our progress with Praharsha to gather feedback and make necessary adjustments. This flexible approach will help us create a high-quality product that meets user needs and aligns with project goals.
 
 # Estimated Timeline
 
