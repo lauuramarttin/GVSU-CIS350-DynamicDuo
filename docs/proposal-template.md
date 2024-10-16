@@ -16,7 +16,12 @@ Loosely Defined Features:
 
 # Anticipated Technologies
 
-(What technologies are needed to build this project)
+Python: The primary programming language for backend development.
+SQL: A database management system for storing and querying data.
+HTML and CSS: Technologies for creating the frontend, defining structure and style.
+Git: A version control tool for managing the code.
+Trello: A project management tool for organizing tasks and collaboration.
+
 
 # Method/Approach
 
