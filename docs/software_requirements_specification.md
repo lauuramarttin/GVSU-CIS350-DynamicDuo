@@ -1,4 +1,4 @@
-# Software Requirements Specification
+# Requirements
 
 ## Overview
 This document outlines the software requirements for the train and passenger management system. It details the functional and non-functional requirements that guide the development process to ensure a robust and efficient application.
