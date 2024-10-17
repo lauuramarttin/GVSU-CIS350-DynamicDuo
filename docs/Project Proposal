@@ -9,10 +9,10 @@ Our project focuses on creating a simple train and passenger management system u
 We also plan to design a friendly front-end that makes it simple for users to navigate the system. The application will be built with the user in mind, ensuring all features are straightforward and accessible. By offering tools for managing trips and retrieving data quickly, our system aims to make traveling easier for both railway companies and passengers.
 
 Loosely Defined Features:
-- Add New Trip: Users can enter details for new trips, like train info and passenger names.
-- Remove Trip: Users can delete a trip from the system when it’s no longer needed.
-- View Passenger Trips: Passengers can check their travel history and upcoming trips.
-- List Passengers by Train: Staff can see a list of all passengers booked on a specific train.
+* Add New Trip: Users can enter details for new trips, like train info and passenger names.
+* Remove Trip: Users can delete a trip from the system when it’s no longer needed.
+* View Passenger Trips: Passengers can check their travel history and upcoming trips.
+* List Passengers by Train: Staff can see a list of all passengers booked on a specific train.
 
 # Anticipated Technologies
 
@@ -29,13 +29,13 @@ We will develop the train and passenger management system using the Agile method
 
 # Estimated Timeline
 
-- Week 1: Define the Idea and Choose Functions: Define the project's objectives and select the key functionalities of the system.
-- Week 2: Organization and Task Distribution: Distribute responsibilities among team members.
-- Week 3: Develop the Database: Design and create the database structure using SQL.
-- Week 4-6: Develop the Backend and Perform Backend Testing: Code the program with classes and fucntions in python and then test to verify it works correctly.
-- Week 7-8: Develop the Frontend: Create the user interface using HTML and CSS.
-- Week 9:	Perform Frontend Testing and Collect Feedback:	Test the functionality and usability of the frontend.
-- Week 10: Implement Improvements and Documentation
+* Week 1: Define the Idea and Choose Functions: Define the project's objectives and select the key functionalities of the system.
+* Week 2: Organization and Task Distribution: Distribute responsibilities among team members.
+* Week 3: Develop the Database: Design and create the database structure using SQL.
+* Week 4-6: Develop the Backend and Perform Backend Testing: Code the program with classes and fucntions in python and then test to verify it works correctly.
+* Week 7-8: Develop the Frontend: Create the user interface using HTML and CSS.
+* Week 9:	Perform Frontend Testing and Collect Feedback:	Test the functionality and usability of the frontend.
+* Week 10: Implement Improvements and Documentation
 
 # Anticipated Problems
 
