@@ -1,6 +1,6 @@
-Team name: Dynamic Duo
+# Team name: Dynamic Duo
 
-Team members: Mattew Tonder and Laura Martin
+## Team members: Mattew Tonder and Laura Martin
 
 # Introduction
 
@@ -33,7 +33,7 @@ We will develop the train and passenger management system using the Agile method
 - Week 2: Organization and Task Distribution: Distribute responsibilities among team members.
 - Week 3: Develop the Database: Design and create the database structure using SQL.
 - Week 4-6: Develop the Backend and Perform Backend Testing: Code the program with classes and fucntions in python and then test to verify it works correctly.
-- Week 7-8:	Develop the Frontend: Create the user interface using HTML and CSS.
+- Week 7-8: Develop the Frontend: Create the user interface using HTML and CSS.
 - Week 9:	Perform Frontend Testing and Collect Feedback:	Test the functionality and usability of the frontend.
 - Week 10: Implement Improvements and Documentation
 
