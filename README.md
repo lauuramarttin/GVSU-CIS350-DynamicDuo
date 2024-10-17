@@ -21,5 +21,6 @@ Our project focuses on developing a train and passenger management system using 
 
 ## Sequence Diagram
 "Text"
+![Sequence Diagram](artifacts/SequenceDiagram.png)
 
 ![Sequence Diagram](artifacts/SequenceDiagram.pdf)
