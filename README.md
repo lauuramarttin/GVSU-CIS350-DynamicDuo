@@ -18,3 +18,8 @@ Our project focuses on developing a train and passenger management system using 
 - Basic Knowledge of HTML and CSS: Understanding how to create the structure and design of a frontend.
 
 ## Run Instructions
+
+## Sequence Diagram
+"Text"
+
+[Sequence Diagram]()
