@@ -23,3 +23,7 @@ Our project focuses on developing a train and passenger management system using 
 "Text"
 ![Sequence Diagram](artifacts/SequenceDiagram.png)
 
+![Use Case Diagram](artifacts/UseCaseDiagram(Simple).png)
+
+![Use Case Diagram - Extended](artifacts/UseCaseDiagram.png)
+
