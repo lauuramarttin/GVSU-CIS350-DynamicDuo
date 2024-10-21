@@ -20,7 +20,7 @@ Our project focuses on developing a train and passenger management system using 
 ## Run Instructions
 
 ## Gantt Chart
-![Gantt Chart](artifacts/GanttChart.png)
+![Gantt Chart](artifacts/CIS350_GanttChart.png)
 
 ## Use Case Diagram
 ![Use Case Diagram](artifacts/UseCaseDiagram(Simple).png)
