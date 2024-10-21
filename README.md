@@ -19,9 +19,8 @@ Our project focuses on developing a train and passenger management system using 
 
 ## Run Instructions
 
-## Sequence Diagram
-"Text"
-![Sequence Diagram](artifacts/SequenceDiagram.png)
+## Gantt Chart
+![Gantt Chart](artifacts/GanttChart.png)
 
 ## Use Case Diagram
 ![Use Case Diagram](artifacts/UseCaseDiagram(Simple).png)
@@ -29,3 +28,5 @@ Our project focuses on developing a train and passenger management system using 
 ## Use Case Diagram - Extended
 ![Use Case Diagram - Extended](artifacts/UseCaseDiagram.png)
 
+## Sequence Diagram
+![Sequence Diagram](artifacts/SequenceDiagram.png)
