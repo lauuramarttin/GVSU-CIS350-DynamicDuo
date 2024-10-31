@@ -1,4 +1,5 @@
-##Relational Schema
+## Relational Schema
+
 Trains (TrainID(PK), TrainName, Capacity)
 Wagons (WagonID(PK), TrainID(FK), WagonNumber, WagonCapacity)
 Passengers (PassID(PK), Name, PhoneNumber, Age)
