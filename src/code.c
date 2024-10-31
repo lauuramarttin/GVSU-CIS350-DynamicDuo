@@ -317,3 +317,9 @@ void readinitialData(list<Train> &Trains, map<string,Passenger> &Passengers){
 		passengfile.close(); //closes the passenger.txt file
 	}
 }
+int main (){
+	list<Train> Trains;
+	map<string,Passenger> Passengers;
+	readinitialData(Trains,Passengers);
+	cout<<"Read"<<endl;
+}
