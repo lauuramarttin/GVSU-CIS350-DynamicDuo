@@ -2,7 +2,7 @@
 
 Train Network App
 
-Our project focuses on developing a train and passenger management system using Python and a database to store and manage travel information. This system allows us to add new trips for passengers, remove existing trips, and query both the trips of a specific passenger and the list of passengers on a particular train. By implementing a database, we can keep the data organized and persistently accessible, improving the efficiency of the system.
+This project uses C++ to simulate a train network, with core functionality to read initial data from text files to populate a train list and passenger map. Key functions will include adding/removing passenger trips, displaying passenger trip details, listing passengers on specific trains, and ordering passengers alphabetically across trains. Following the C++ backend, a frontend website will be developed to present and manage this data interactively for users
 
 ## Team Members and Roles
 
@@ -11,8 +11,7 @@ Our project focuses on developing a train and passenger management system using 
 
 ## Prerequisites
 
-- Knowledge of Python: Ability to develop code using functions and classes.
-- Knowledge of SQL: Understanding how to manage and query data in a database.
+- Knowledge of C++: Ability to develop code using functions and classes.
 - Git Proficiency: Knowing how to use Git for version control and collaboration with others.
 - Use of Trello: Ability to organize tasks and track project progress.
 - Basic Knowledge of HTML and CSS: Understanding how to create the structure and design of a frontend.
