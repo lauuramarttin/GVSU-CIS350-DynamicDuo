@@ -1,5 +1,3 @@
-using namespace std;
-
 //Class of trips
 class Trip{
 	private:
