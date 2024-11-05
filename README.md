@@ -22,7 +22,7 @@ This project uses C++ to simulate a train network, with core functionality to re
 ![Gantt Chart](artifacts/CIS350_GanttChart.png)
 
 ## Use Case Diagram
-![Use Case Diagram](artifacts/UseCaseDiagram(Simple).png)
+![Use Case Diagram](artifacts/Usecasediagram.png)
 
 ## Use Case Diagram - Extended
 ![Use Case Diagram - Extended](artifacts/UseCaseDiagram.png)
