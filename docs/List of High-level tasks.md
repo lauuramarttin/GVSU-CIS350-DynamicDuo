@@ -14,10 +14,10 @@
 * Expected time to complete: 3 hours
 * Responsible: Laura
 ***
-* Name: Create a timeline and tasks Gantt chart
+* Name: Create a timeline Gantt chart
 * Description: A Gantt chart has been created to track project progress and tasks.
 * Expected time to complete: 2 hours
-* Responsible: Mat and Laura
+* Responsible: Mat
 ***
 * Name: Create use case diagram
 * Description: A use case diagram has been created to illustrate the system’s functionality and user interactions.
