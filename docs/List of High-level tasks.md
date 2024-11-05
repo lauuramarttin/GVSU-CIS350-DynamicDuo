@@ -53,7 +53,7 @@
 * Name: Develop the frontend
 * Description: Create the user interface to interact with the system, displaying menus and query results.
 * Expected time to complete:
-* Responsible: Laura and Mat
+* Responsible: Mat
 ***
 * Name: Perform frontend testing and collect feedback
 * Description: Test the interface to ensure that all functionalities are correctly displayed and gather user feedback.
@@ -64,5 +64,18 @@
 * Description : Apply improvements based on testing and document the code and system functionality.
 * Expected time to complete: 3 hours
 * Responsible: Laura and Mat
-
-
+***
+* Name: Implement front-end files
+* Description: Merge JavaScript, CSS and HTML files (Using Visual Studio).
+* Expected time to complete: 5 hours
+* Responsible: Mat
+***
+* Name: Improve the Website's look
+* Description: Edit CSS files to make the Website look more professional.
+* Expected time to complete: 5 hours
+* Responsible: Mat
+***
+* Name: Connect front and back end
+* Description: Use a framework to merge both and start testing.
+* Expected time to complete: 2 hours
+* Responsible: Mat
