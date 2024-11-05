@@ -3,8 +3,7 @@
 * Description: The programming language C++ and necessary features for the project have been selected.
 * Expected time to complete: 2 hours
 * Responsible: Laura and Mat
-   
-
+***
 * Name: Design main classes
 * Description: The Train, Wagon, Passenger, and Trip classes have been designed with their primary attributes and functions.
 * Expected time to complete: 2,5 hours
