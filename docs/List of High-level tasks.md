@@ -38,22 +38,17 @@
 * Name: Implement the removePassengerTrip function
 * Description: Implement the function to remove a passenger's trip from a train.
 * Expected time to complete: 2,5 hours
-* Responsible: Mat
+* Responsible: Laura
 ***
 * Name: Implement the main menu
 * Description: Implement the menu that allows the user to select options such as adding/removing passengers, displaying passenger lists, etc.
 * Expected time to complete: 1 hour
-* Responsible (person in charge): Mat
+* Responsible (person in charge): Laura
 ***
 * Name: Implement the showListOfPassengers function
 * Description: Display a list of passengers for a specific train.
 * Expected time to complete: 2 hours
 * Responsible: Laura
-***
-* Name: Develop the frontend
-* Description: Create the user interface to interact with the system, displaying menus and query results.
-* Expected time to complete:
-* Responsible: Mat
 ***
 * Name: Perform frontend testing and collect feedback
 * Description: Test the interface to ensure that all functionalities are correctly displayed and gather user feedback.
@@ -77,5 +72,5 @@
 ***
 * Name: Connect front and back end
 * Description: Use a framework to merge both and start testing.
-* Expected time to complete: 2 hours
+* Expected time to complete: 4 hours
 * Responsible: Mat
