@@ -1,0 +1,33 @@
+﻿/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Styling for each section */
+section {
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #ddd;
+    color: #333;
+    margin-top: 2em;
+}
