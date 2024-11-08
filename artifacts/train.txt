@@ -1,6 +1,6 @@
-Train1 Code: abhs36 Date: 10:02:2024 DepStation: Madrid ArrStation: Sevilla Km: 100 NWagons: 3
-Train2 Code: audg67 Date: 12:02:2024 DepStation: Madrid ArrStation: Malaga Km: 120 NWagons: 2
-Train3 Code: abbb03 Date: 05:08:2024 DepStation: Madrid ArrStation: Barcelona Km: 200 NWagons: 2
-Train4 Code: abbb04 Date: 16:12:2024 DepStation: Madrid ArrStation: Valencia Km: 150 NWagons: 2
-Train5 Code: abbb05 Date: 23:07:2024 DepStation: Madrid ArrStation: Cantabria Km: 320 NWagons: 2
+Train1 Code: abhs36 Date: 10:02:2023 DepStation: Madrid ArrStation: Sevilla Km: 100 NWagons: 3
+Train2 Code: audg67 Date: 12:02:2023 DepStation: Madrid ArrStation: Malaga Km: 120 NWagons: 2
+Train3 Code: abbb03 Date: 05:08:2023 DepStation: Madrid ArrStation: Barcelona Km: 200 NWagons: 2
+Train4 Code: abbb04 Date: 16:12:2023 DepStation: Madrid ArrStation: Valencia Km: 150 NWagons: 2
+Train5 Code: abbb05 Date: 23:07:2023 DepStation: Madrid ArrStation: Cantabria Km: 320 NWagons: 2
 
