@@ -7,13 +7,12 @@ bool menu(list<Train> &Trains, map<string, Passenger> &Passengers){
 	cout<<"2. Remove a passenger’s trip from a train"<<endl;
 	cout<<"3. Show trips of a passenger"<<endl;
 	cout<<"4. Show list of passengers in a specific train"<<endl;		
-	cout<<"5. Show an alphabetically ordered list of passengers in all the trains"<<endl;
 	//see when to finish the program
-	cout<<"6. End program"<<endl;
+	cout<<"5. End program"<<endl;
 	bool follow=1;
 	cout<<"Choose an option: ";
 	cin>>option;
-	if(option==6){
+	if(option==5){
 		follow=0;
 	}
 	// stablish what to do for each option
@@ -35,10 +34,6 @@ bool menu(list<Train> &Trains, map<string, Passenger> &Passengers){
 				showListOfPassengers(Trains, Passengers);
 				break;
 			case 5:
-				cout<<"Show an alphabetically ordered list of passengers in all the trains"<<endl;
-				ordList=showOrderedListOfPassengers(Passengers);
-				break;
-			case 6:
 				cout<<"End program"<<endl;
 				endProgram(Trains, Passengers);
 				break;
