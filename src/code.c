@@ -65,6 +65,7 @@ class Trip{
 		float getMoney(){
 			return money;
 		}
+		
 
 };
 
@@ -130,6 +131,18 @@ class Passenger{
 		string getName(){
 			return name;
 		}
+		
+		//order alphabetically the passengers by their names 
+		bool operator<(Passenger p){
+			string name1=getName();
+			string name2=p.getName();
+			if(name1<name2){
+				return true;
+			}else{
+				return false;
+			}
+		}
+
 		
 };
 
@@ -318,6 +331,8 @@ void readinitialData(list<Train> &Trains, map<string,Passenger> &Passengers){
 	}
 }
 
+
+
 // Function to end the program and save train and passenger information to a file
 void endProgram(list<Train> Trains, map<string, Passenger> Passengers){
 	//Open a new file for output
@@ -367,6 +382,7 @@ void endProgram(list<Train> Trains, map<string, Passenger> Passengers){
 	}
 	Outputfile.close();	
 }
+
 
 //takes a list of Train objects and a map of Passenger objects
 void addNewPassengerTrip(list<Train> &Trains, map<string,Passenger> &Passengers){
@@ -494,13 +510,12 @@ bool menu(list<Train> &Trains, map<string, Passenger> &Passengers){
 	cout<<"2. Remove a passenger’s trip from a train"<<endl;
 	cout<<"3. Show trips of a passenger"<<endl;
 	cout<<"4. Show list of passengers in a specific train"<<endl;		
-	cout<<"5. Show an alphabetically ordered list of passengers in all the trains"<<endl;
 	//see when to finish the program
-	cout<<"6. End program"<<endl;
+	cout<<"5. End program"<<endl;
 	bool follow=1;
 	cout<<"Choose an option: ";
 	cin>>option;
-	if(option==6){
+	if(option==5){
 		follow=0;
 	}
 	// stablish what to do for each option
@@ -511,15 +526,15 @@ bool menu(list<Train> &Trains, map<string, Passenger> &Passengers){
 				break;
 			case 2:
 				cout<<"Remove a passenger’s trip from a train"<<endl;
-				removePassengerTrip(Trains,Passengers);
+				//removePassengerTrip(Trains,Passengers);
 				break;
 			case 3:
 				cout<<"Show trips of a passenger"<<endl;
-				showTripsOfPassenger(Passengers);
+				//showTripsOfPassenger(Passengers);
 				break;
 			case 4:
 				cout<<"Show list of passengers in a specific train"<<endl;
-				showListOfPassengers(Trains, Passengers);
+				//showListOfPassengers(Trains, Passengers);
 				break;
 			case 5:
 				cout<<"End program"<<endl;
@@ -532,6 +547,7 @@ bool menu(list<Train> &Trains, map<string, Passenger> &Passengers){
 	return follow;	
 }
 
+
 int main (){
 	list<Train> Trains;
 	map<string,Passenger> Passengers;
@@ -539,5 +555,6 @@ int main (){
 	bool follow;
 	do{
 		follow=menu(Trains, Passengers);
-	} while(follow!=0);
+	}while(follow!=0);
+		
 }
