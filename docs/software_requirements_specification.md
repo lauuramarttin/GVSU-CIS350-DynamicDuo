@@ -24,7 +24,6 @@ This document outlines the software requirements for the train and passenger man
 
 5. **Train and Passenger Queries**
    1. The function showListOfPassengers should display a list of passengers on a specified train, including ID, name, wagon_number, and seat_number.
-   2. showOrderedListOfPassengers should return an alphabetically ordered list of passengers across all trains.
 
 6. **Validation Requirements**
    1. Use assert to ensure: Passenger age is greater than 0.
@@ -42,8 +41,7 @@ This document outlines the software requirements for the train and passenger man
    1. Main data-handling functions, like readInitialData, addNewPassengerTrip, and removePassengerTrip, should receive trains and passengers containers by reference for performance optimization.
 
 10. **Search and Sorting**
-   1. Implement a method to alphabetically sort passengers in showOrderedListOfPassengers.
-   2. showListOfPassengers should search and display passengers on a specific train, with optimized search in suitable data structures
+   1. showListOfPassengers should search and display passengers on a specific train, with optimized search in suitable data structures
 
 ## Non-Functional Requirements
 
