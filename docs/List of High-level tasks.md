@@ -28,13 +28,13 @@
 * Description: Text files containing initial data for trains and passengers have been created for input.
 * Expected time to complete: 1,5 hours
 * Responsible: Laura
-
-## Incomplete Tasks
+***
 * Name: Implement the addNewPassengerTrip function
 * Description: Implement the function that allows adding a new passenger trip to an existing train.
 * Expected time to complete: 3 hours
 * Responsible: Laura
-***
+
+## Incomplete Tasks
 * Name: Implement the removePassengerTrip function
 * Description: Implement the function to remove a passenger's trip from a train.
 * Expected time to complete: 2,5 hours
@@ -47,6 +47,11 @@
 ***
 * Name: Implement the showListOfPassengers function
 * Description: Display a list of passengers for a specific train.
+* Expected time to complete: 2 hours
+* Responsible: Laura
+***
+* Name: Implement the showTripsOfPassengers function
+* Description: Display trips of one passenger.
 * Expected time to complete: 2 hours
 * Responsible: Laura
 ***
@@ -73,4 +78,4 @@
 * Name: Connect front and back end
 * Description: Use a framework to merge both and start testing.
 * Expected time to complete: 4 hours
-* Responsible: Mat
+* Responsible: Mat and Laura
