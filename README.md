@@ -1,6 +1,6 @@
 # Dynamic Duo
 
-Train Network App
+TrainHub Website
 
 This project uses C++ to simulate a train network, with core functionality to read initial data from text files to populate a train list and passenger map. Key functions will include adding/removing passenger trips, displaying passenger trip details, listing passengers on specific trains, and ordering passengers alphabetically across trains. Following the C++ backend, a frontend website will be developed to present and manage this data interactively for users
 
