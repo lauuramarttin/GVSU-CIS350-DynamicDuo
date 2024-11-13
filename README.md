@@ -2,7 +2,7 @@
 
 TrainHub Website
 
-This project uses C++ to simulate a train network, with core functionality to read initial data from text files to populate a train list and passenger map. Key functions will include adding/removing passenger trips, displaying passenger trip details, listing passengers on specific trains, and ordering passengers alphabetically across trains. Following the C++ backend, a frontend website will be developed to present and manage this data interactively for users
+This project uses C++ to simulate a train network, with core functionality to read initial data from text files to populate a train list and passenger map. Key functions will include adding/removing passenger trips, displaying passenger trip details and listing passengers on specific trains. Following the C++ backend, a frontend website will be developed to present and manage this data interactively for users
 
 ## Team Members and Roles
 
