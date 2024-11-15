@@ -4,6 +4,7 @@ Team Name: Dynamic Duo
 Members Present: Matt Tonder, Laura Martin
 
 Date: 11/15/2024
+
 Time: 9:30 - 10:00 am
 
 Discussion Points:
