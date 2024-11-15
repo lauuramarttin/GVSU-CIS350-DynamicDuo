@@ -31,6 +31,7 @@ void showListOfPassengers(list<Train> Trains, map<string,Passenger> Passengers){
 					// Print the passenger information: ID, name, seat, and wagon number
 					cout<<actId<<" "<<actName<<" Seat: "<<actSeat<<" Wagon: "<<actNumwagon<<endl;
 				}
+				break; //this solved the problem we had
 			}
 		}
 		
