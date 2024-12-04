@@ -4,6 +4,10 @@
 #include<fstream> // File reading and writing
 #include<cstring> // Functions to work with strings
 #include<cassert> // Condition verification
+#include<windows.h>
+
+//changing the color
+HANDLE hconsole=GetStdHandle(STD_OUTPUT_HANDLE);
 
 using namespace std;
 
@@ -34,8 +38,9 @@ class Trip{
 			distance = dis;
 			seat = s;
 			wagon = w;
-			
+			SetConsoleTextAttribute(hconsole,6);
 			assert((m >= 0) && (dis >= 0) && (s >= 0) && (w >= 0)); // Verifies that values are valid.
+			SetConsoleTextAttribute(hconsole,7);
 		}
 	
 		//Get individual values
@@ -96,10 +101,12 @@ class Passenger{
 			age = ag;
 			gender = gnd;
 			bagweight = bagw;
-			ptrip = trip;	
+			ptrip = trip;
+			SetConsoleTextAttribute(hconsole,6);	
 			assert(age >= 0); // Verifies that age is valid
 			assert((bagw >= 0) && (bagw <= 25)); // Luggage weight must be between 0 and 25
 			assert(gender == 'M' || gender == 'F');
+			SetConsoleTextAttribute(hconsole,7);
 		}
 		
 		//Get individual values
@@ -153,7 +160,9 @@ class Wagon{
 			num = n;
 			seats = seat;
 			wpassengers = wpass;	
+			SetConsoleTextAttribute(hconsole,6);
 			assert((n >= 0) && (seat >= 0) && (wpass.size() <= seat)); // Verifies the wagon's capacity.
+			SetConsoleTextAttribute(hconsole,7);
 		}
 		
 		//Get individual values
@@ -200,7 +209,9 @@ class Train{
 			arrivals = arrist;
 			km = kmeter;
 			infowagon = wagons;	
+			SetConsoleTextAttribute(hconsole,6);
 			assert(kmeter >= 0); // Verifies that the distance is valid.
+			SetConsoleTextAttribute(hconsole,7);
 		}
 		
 		//Get individual values
@@ -277,7 +288,6 @@ void readinitialData(list<Train> &Trains, map<string,Passenger> &Passengers){
 			Trains.push_back(t); //adds the train to the Trains list
 		}
 		
-		cout << "List of trains created successfully" << endl; 
 		trainfile.close(); //closes the train.txt file
 		wagonfile.close(); //closes the wagon.txt file
 	}
@@ -314,7 +324,6 @@ void readinitialData(list<Train> &Trains, map<string,Passenger> &Passengers){
 			Passengers.insert({id, p}); //adds the passenger to the Passengers map associating the ID with the Passenger object
 		}
 		
-		cout << "Map of passengers created successfully" << endl;
 		passengfile.close(); //closes the passenger.txt file
 	}
 }
@@ -327,7 +336,7 @@ void endProgram(list<Train> Trains, map<string, Passenger> Passengers){
 	Outputfile.open("Output.txt");
 	// Check if the file opened successfully
 	if(!Outputfile){
-		cout<<"file doesn't exist";
+		cout<<"File doesn't exist.";
 	}
 	else{
 		//fill this new file, with the update information
@@ -688,14 +697,14 @@ void showListOfPassengers(list<Train> Trains, map<string,Passenger> Passengers){
 	}
 	// If the train was not found, print a message
 	if (findTrain==0){
-		cout<<"this train was not found"<<endl;
+		cout<<"This train was not found"<<endl;
 	}
 }
 
 //show the trips of passengers
 void showTripsOfPassenger(map<string,Passenger> &Passengers){
 	string id;
-	cout<<"introduce the id ";
+	cout<<"Introduce the ID:  ";
 	cin>>id;
 	int find=0; // Flag to check if the passenger exists
 	
@@ -723,20 +732,23 @@ void showTripsOfPassenger(map<string,Passenger> &Passengers){
 				int seat=t.getSeat();
 				int wagon=t.getWagon();
 				// Print all the trip details
-				cout<<"information about trip:\n"<<date<<" "<<depstat<<" "<<arrivestat<<" "<<money<<" "<<distance<<" "<<seat<<" "<<wagon<<endl;
+				cout<<"Information about trip:\n"<<date<<" "<<depstat<<" "<<arrivestat<<" "<<money<<" "<<distance<<" "<<seat<<" "<<wagon<<endl;
 			}
 			
 		}
 	}
 	// If the passenger ID is not found in the map
 	if (find==0){
-		cout<< "user not found"; // Notify the user
+		cout<< "User not found"; // Notify the user
 	}
 }
 
 // menu function
 bool menu(list<Train> &Trains, map<string, Passenger> &Passengers){
+    SetConsoleTextAttribute(hconsole,'G');
+    cout << "\n\n"; 
 	cout<<"Wellcome to the main menu, what do you want to do?"<<endl;
+	SetConsoleTextAttribute(hconsole,3);
 	int option;
 	//display menu
 	cout<<"1. Add new passenger’s trip to a train"<<endl;
@@ -751,6 +763,7 @@ bool menu(list<Train> &Trains, map<string, Passenger> &Passengers){
 	if(option==5){
 		follow=0;
 	}
+	SetConsoleTextAttribute(hconsole,7);
 	// stablish what to do for each option
 	switch (option){
 			case 1:
@@ -774,7 +787,8 @@ bool menu(list<Train> &Trains, map<string, Passenger> &Passengers){
 				endProgram(Trains, Passengers);
 				break;
 			default:
-				cout<<"you've entered the wrong number"<<endl;
+				SetConsoleTextAttribute(hconsole,6);
+				cout<<"You've entered the wrong number."<<endl;
 				
 	}
 	return follow;	
