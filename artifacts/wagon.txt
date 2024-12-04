@@ -1,9 +1,8 @@
-Wagon: 1 NumSeats: 18 NumPass: 5 ID: 1809A Seat: 1 ID: 0701B Seat: 2 ID: 1999C Seat: 3 ID: 1006A Seat: 4 ID: 2345G Seat: 5
-Wagon: 2 NumSeats: 10 NumPass: 5 ID: 2678A Seat: 1 ID: 9856H Seat: 2 ID: 3738J Seat: 3 ID: 1927K Seat: 4 ID: 1828C Seat: 5
-Wagon: 3 NumSeats: 7 NumPass: 5 ID: 7282A Seat: 1 ID: 3838G Seat: 2 ID: 2772P Seat: 3 ID: 2626K Seat: 4 ID: 1129H Seat: 5
-Wagon: 1 NumSeats: 5 NumPass: 5 ID: 1839C Seat: 1 ID: 2929J Seat: 2 ID: 2918T Seat: 3 ID: 2828D Seat: 4 ID: 3836A Seat: 5
-Wagon: 2 NumSeats: 10 NumPass: 5 ID: 2874A Seat: 1 ID: 2837B Seat: 2 ID: 1936P Seat: 3 ID: 3636A Seat: 4 ID: 2928C Seat: 5
-Wagon: 1 NumSeats: 12 NumPass: 5 ID: 2645P Seat: 1 ID: 2356R Seat: 2 ID: 1230M Seat: 3 ID: 4562L Seat: 4 ID: 2367J Seat: 5
-Wagon: 2 NumSeats: 6 NumPass: 5 ID: 4547M Seat: 1 ID: 3421A Seat: 2 ID: 9045S Seat: 3 ID: 2367F Seat: 4 ID: 8976G Seat: 5
-Wagon: 1 NumSeats: 13 NumPass: 5 ID: 6534H Seat: 1 ID: 3425J Seat: 2 ID: 1298F Seat: 3 ID: 2346I Seat: 4 ID: 5647S Seat: 5
-
+Wagon: 1 NumSeats: 18 NumPass: 5 ID: 0701B Seat: 2 ID: 1006A Seat: 4 ID: 1809A Seat: 1 ID: 1999C Seat: 3 ID: 2345G Seat: 5
+Wagon: 2 NumSeats: 10 NumPass: 5 ID: 1828C Seat: 5 ID: 1927K Seat: 4 ID: 2678A Seat: 1 ID: 3738J Seat: 3 ID: 9856H Seat: 2
+Wagon: 3 NumSeats: 7 NumPass: 5 ID: 1129H Seat: 5 ID: 2626K Seat: 4 ID: 2772P Seat: 3 ID: 3838G Seat: 2 ID: 7282A Seat: 1
+Wagon: 1 NumSeats: 5 NumPass: 5 ID: 1839C Seat: 1 ID: 2828D Seat: 4 ID: 2918T Seat: 3 ID: 2929J Seat: 2 ID: 3836A Seat: 5
+Wagon: 2 NumSeats: 10 NumPass: 5 ID: 1936P Seat: 3 ID: 2837B Seat: 2 ID: 2874A Seat: 1 ID: 2928C Seat: 5 ID: 3636A Seat: 4
+Wagon: 1 NumSeats: 12 NumPass: 3 ID: 1230M Seat: 3 ID: 2356R Seat: 2 ID: 2645P Seat: 1 
+Wagon: 2 NumSeats: 6 NumPass: 2 ID: 2367J Seat: 1 ID: 4562L Seat: 2
+Wagon: 1 NumSeats: 13 NumPass: 1 ID: 1809A Seat: 1
