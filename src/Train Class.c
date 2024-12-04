@@ -23,7 +23,9 @@ class Train{
 			arrivals = arrist;
 			km = kmeter;
 			infowagon = wagons;	
+			SetConsoleTextAttribute(hconsole,6);
 			assert(kmeter >= 0); // Verifies that the distance is valid.
+			SetConsoleTextAttribute(hconsole,7);
 		}
 		
 		//Get individual values
