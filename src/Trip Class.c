@@ -25,8 +25,9 @@ class Trip{
 			distance = dis;
 			seat = s;
 			wagon = w;
-			
+			SetConsoleTextAttribute(hconsole,6);
 			assert((m >= 0) && (dis >= 0) && (s >= 0) && (w >= 0)); // Verifies that values are valid.
+			SetConsoleTextAttribute(hconsole,7);
 		}
 	
 		//Get individual values
@@ -56,5 +57,6 @@ class Trip{
 		float getMoney(){
 			return money;
 		}
+		
 
 };
