@@ -1,6 +1,9 @@
 // menu function
 bool menu(list<Train> &Trains, map<string, Passenger> &Passengers){
+    SetConsoleTextAttribute(hconsole,'G');
+    cout << "\n\n"; 
 	cout<<"Wellcome to the main menu, what do you want to do?"<<endl;
+	SetConsoleTextAttribute(hconsole,3);
 	int option;
 	//display menu
 	cout<<"1. Add new passenger’s trip to a train"<<endl;
@@ -15,6 +18,7 @@ bool menu(list<Train> &Trains, map<string, Passenger> &Passengers){
 	if(option==5){
 		follow=0;
 	}
+	SetConsoleTextAttribute(hconsole,7);
 	// stablish what to do for each option
 	switch (option){
 			case 1:
@@ -38,7 +42,8 @@ bool menu(list<Train> &Trains, map<string, Passenger> &Passengers){
 				endProgram(Trains, Passengers);
 				break;
 			default:
-				cout<<"you've entered the wrong number"<<endl;
+				SetConsoleTextAttribute(hconsole,6);
+				cout<<"You've entered the wrong number."<<endl;
 				
 	}
 	return follow;	
