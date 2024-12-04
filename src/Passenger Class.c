@@ -25,10 +25,12 @@ class Passenger{
 			age = ag;
 			gender = gnd;
 			bagweight = bagw;
-			ptrip = trip;	
+			ptrip = trip;
+			SetConsoleTextAttribute(hconsole,6);	
 			assert(age >= 0); // Verifies that age is valid
 			assert((bagw >= 0) && (bagw <= 25)); // Luggage weight must be between 0 and 25
 			assert(gender == 'M' || gender == 'F');
+			SetConsoleTextAttribute(hconsole,7);
 		}
 		
 		//Get individual values
@@ -60,5 +62,5 @@ class Passenger{
 		string getName(){
 			return name;
 		}
-		
+	
 };
