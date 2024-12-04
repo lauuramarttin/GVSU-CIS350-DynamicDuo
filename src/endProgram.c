@@ -1,5 +1,6 @@
-// Function to end the program and save train and passenger information to a file
+// Function to end the program and save train and passenger information to a file and update files
 void endProgram(list<Train> Trains, map<string, Passenger> Passengers){
+    
 	//Open a new file for output
 	ofstream Outputfile;
 	Outputfile.open("Output.txt");
@@ -46,4 +47,83 @@ void endProgram(list<Train> Trains, map<string, Passenger> Passengers){
 		}		
 	}
 	Outputfile.close();	
+	
+	//Update passengers file
+	ofstream passengerFile("passenger.txt"); // Open the file 'passenger.txt' for writing
+    if (!passengerFile) { // Check if the file was successfully opened
+        cout << "Error." << endl;
+    } else {
+        int passengerNumber = 1; // Initialize a variable to keep track of the passenger number
+        for (auto &entry : Passengers) { // Iterate over each entry in the Passengers collection
+            Passenger p = entry.second; // Retrieve the Passenger object associated with the entry
+            
+			// Write passenger details to the file: ID, Name, Address, Age, Gender, Bag weight, and the number of trips
+            passengerFile << "Passenger" << passengerNumber++ << ": ID: " << p.getID()
+                          << " Name: " << p.getName()
+                          << " Address: " << p.getAddress()
+                          << " Age: " << p.getAge()
+                          << " Gender: " << p.getGender()
+                          << " BWeight: " << p.getBagweight()
+                          << " NTrips: " << p.getList().size();
+            
+            // Iterate over each trip the passenger has made and write the details of each trip
+            for (Trip t : p.getList()) {
+                passengerFile << " Date: " << t.getDate()
+                              << " Departure: " << t.getDpst()
+                              << " Arrival: " << t.getArrivsta()
+                              << " Price: " << t.getMoney()
+                              << " Seat: " << t.getSeat()
+                              << " Wagon: " << t.getWagon()
+                              << " Distance: " << t.getDistance();
+            }
+            passengerFile << endl; 
+        }
+        passengerFile.close(); // Close the file after writing all passenger data
+    }
+    
+    
+    //Update wagons file
+    ofstream wagonFile("wagon.txt"); // Open the file 'wagon.txt' for writing
+    if (!wagonFile) {
+        cout << "Error opening wagon.txt for writing." << endl;
+        return;
+    }
+
+    for (Train &t : Trains) { // Iterate over each train in the Trains collection
+        list<Wagon> wagons = t.getWagons(); // Get the list of wagons for the current train
+        list<Wagon> validWagons; // Create a list to store valid wagons
+
+        for (Wagon &w : wagons) { // Iterate over each wagon in the train
+            if (w.getIds().size() > 0) { // Check if the wagon has passengers (IDs)
+                map<string, int> validIds; // Create a map to store valid IDs and seat numbers
+                for (auto &idSeat : w.getIds()) { // Iterate over each passenger ID and seat number
+                    if (!idSeat.first.empty()) { // Only process valid IDs (non-empty)
+                        validIds[idSeat.first] = idSeat.second; // Store the valid ID and seat number
+                    }
+                }
+
+                if (!validIds.empty()) { // Check if there are valid passengers in the wagon
+                    // Create a new valid wagon with valid IDs and seat numbers
+					Wagon validWagon(w.getNum(), w.getnumSeats(), validIds);
+                    validWagons.push_back(validWagon); // Add the valid wagon to the list
+
+                    // Write the wagon and its passengers to the file
+                    wagonFile << "Wagon: " << w.getNum()
+                              << " NumSeats: " << w.getnumSeats()
+                              << " NumPass: " << validIds.size();
+                    for (auto &idSeat : validIds) { // Iterate over valid passenger IDs and seat numbers
+                        wagonFile << " ID: " << idSeat.first
+                                  << " Seat: " << idSeat.second;
+                    }
+                    wagonFile << endl;
+                }
+            }
+        }
+
+        // Reassign the valid wagons to the train
+        t.setWagons(validWagons);
+    }
+
+    wagonFile.close(); // Close the file after writing all wagon data
+    
 }
