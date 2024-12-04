@@ -91,12 +91,14 @@ void addNewPassengerTrip(list<Train> &Trains, map<string,Passenger> &Passengers)
 						cout << "The passenger has been assigned in wagon: " << wagon << " seat: " << assign << endl;
 						ids[id] = assign; //add the passenger and seat to the ids map
 						w.setIds(ids);
+						it5 = wagons.erase(it5);
 						wagons.insert(it5, w); //insert the modified wagon
 					}
 					it5 = ++it5;
 				}
 				//update the information
 				acttrain.setWagons(wagons);
+				*it1 = acttrain;
 				auto it6 = Passengers.find(id);
 				Passenger actpass = (*it6).second;
 				list<Trip> trips = actpass.getList();
