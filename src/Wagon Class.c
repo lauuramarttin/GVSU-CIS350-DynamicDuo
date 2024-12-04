@@ -17,7 +17,9 @@ class Wagon{
 			num = n;
 			seats = seat;
 			wpassengers = wpass;	
+			SetConsoleTextAttribute(hconsole,6);
 			assert((n >= 0) && (seat >= 0) && (wpass.size() <= seat)); // Verifies the wagon's capacity.
+			SetConsoleTextAttribute(hconsole,7);
 		}
 		
 		//Get individual values
