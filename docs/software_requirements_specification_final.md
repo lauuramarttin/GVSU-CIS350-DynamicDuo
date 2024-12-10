@@ -22,6 +22,16 @@ This document details the functional and non-functional requirements of the trai
  |FR8 |A passenger's trip must be removed if requested.| 
  |FR9 |The system must display all trips associated with a specific passenger.|
  |FR10 |The system must ensure no duplicate seat assignments for a passenger on the same train.|
+ |FR11 |The system must ensure a passenger's baggage weight does not exceed 25 kg.|
+
+ ### Queries and Operations
+ | ID | Requirement |
+ |----|-------------| 
+ |FR12 |The system must display the list of passengers on a specific train, including seat information.| 
+ |FR13 |The system must notify users if a train or passenger is not found.| 
+ |FR14 |The menu must provide clear and functional options (Add, Remove, Show).|
+ |FR15 |The system must update base files with any modifications made.|
+ |FR16 |Invalid user inputs should trigger descriptive error messages without crashing the program.|
  
 ## Non-Functional Requirements
  ### <Name of Feature 1> 
