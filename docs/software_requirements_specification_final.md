@@ -1,19 +1,19 @@
 # Overview
- <Describe the purpose of this document in 1 paragraph of less … hint: 
-it is
- your SRS>
+This document details the functional and non-functional requirements of the train and passenger management system. This system, developed in C++, enables the reading of initial data from text files, passenger management, seat assignment, and trip registration, ensuring efficient and structured handling of information.
+
  # Software Requirements
  <Describe the structure of this section>
  
  ## Functional Requirements
- ### <Name of Feature 1> 
-| ID  | Requirement     
-| 
-| :-------------: | :----------: | 
-| FR1 | <Requirement 1> | 
-| FR2 | <Requirement 2> | 
-| FR3 | <Requirement 3> | 
-| … | … |
+ ### Data management
+ | ID | Requirement |
+ |----|-------------| 
+ |FR1 |The Train class must store private attributes like date, stations, and a list of wagons.| 
+ |FR2 |The Passenger class must include data such as ID, name, age, and a list of trips.| 
+ |FR3 |The Wagon class must maintain the wagon number, capacity, and passenger assignments.| 
+ |FR4 |Data must be loaded from text files when the program starts.|
+ 
+
  ### <Name of Feature 2>
  | ID  | Requirement     
 | 
