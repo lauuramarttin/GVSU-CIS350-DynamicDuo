@@ -12,16 +12,17 @@ This document details the functional and non-functional requirements of the trai
  |FR2 |The Passenger class must include data such as ID, name, age, and a list of trips.| 
  |FR3 |The Wagon class must maintain the wagon number, capacity, and passenger assignments.| 
  |FR4 |Data must be loaded from text files when the program starts.|
- 
+ |FR5 |Changes made to the system must be saved to an output file upon program termination.|
 
- ### <Name of Feature 2>
- | ID  | Requirement     
-| 
-| :-------------: | :----------: |
- | FR4 | <Requirement 1> | 
-| FR5 | <Requirement 2> | 
-| FR6 | <Requirement 3> | 
-| … | … | 
+ ### Passenger management
+ | ID | Requirement |
+ |----|-------------| 
+ |FR6 |The system must add a new passenger if their ID is not already registered.| 
+ |FR7 |A passenger must be assigned an available seat on a specific train.| 
+ |FR8 |A passenger's trip must be removed if requested.| 
+ |FR9 |The system must display all trips associated with a specific passenger.|
+ |FR10 |The system must ensure no duplicate seat assignments for a passenger on the same train.|
+ 
 ## Non-Functional Requirements
  ### <Name of Feature 1> 
 | ID  | Requirement     
