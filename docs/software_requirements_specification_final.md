@@ -65,4 +65,4 @@ This document details the functional and non-functional requirements of the trai
 # Software Artifacts
 This section provides access to the software artifacts utilized during the development of TrainHub. It includes links to essential documents and resources that supported the project's design, implementation, and testing processes.
 
-* [Gantt Chart](../../artifacts//use_case_diagram.png)
+* [Gantt Chart](../../artifacts/Usecase_TrainHub.png)
