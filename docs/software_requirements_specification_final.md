@@ -2,7 +2,7 @@
 This document details the functional and non-functional requirements of the train and passenger management system. This system, developed in C++, enables the reading of initial data from text files, passenger management, seat assignment, and trip registration, ensuring efficient and structured handling of information.
 
  # Software Requirements
- <Describe the structure of this section>
+ This document outlines a total of 30 requirements, divided evenly between 15 functional and 15 non-functional requirements. Both types are organized into three categories, each focusing on a specific feature or aspect of the application. Within each category, there are at least five detailed requirements that describe the necessary functionality or system characteristics.
  
  ## Functional Requirements
  ### Data management
