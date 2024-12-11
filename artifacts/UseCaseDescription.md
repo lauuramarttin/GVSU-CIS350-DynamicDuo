@@ -9,7 +9,8 @@ The user introduces his trip dates and the program finds a train available on th
 ## Actors:
 
    * User
-   * Database
+   * Dictionaries
+   * Structures
 
 ## Preconditions:
 
