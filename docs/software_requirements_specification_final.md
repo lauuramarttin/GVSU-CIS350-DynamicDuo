@@ -66,3 +66,11 @@ This document details the functional and non-functional requirements of the trai
 This section provides access to the software artifacts utilized during the development of TrainHub. It includes links to essential documents and resources that supported the project's design, implementation, and testing processes.
 
 * [Use Case Diagram](https://github.com/lauuramarttin/GVSU-CIS350-DynamicDuo/blob/main/artifacts/Usecase_TrainHub.png)
+ 
+* [Sequence Diagram](https://github.com/lauuramarttin/GVSU-CIS350-DynamicDuo/blob/main/artifacts/Sequence_TrainHub.png)
+ 
+* [Class Diagram](https://github.com/lauuramarttin/GVSU-CIS350-DynamicDuo/blob/main/artifacts/ClassDiagram.png)
+ 
+* [Gantt Chart](https://github.com/lauuramarttin/GVSU-CIS350-DynamicDuo/blob/main/artifacts/CIS350_GanttChart.png)
+
+* [Trello Board](https://trello.com/b/0A5owdLK/cis350-dynamicduo)
