@@ -1,0 +1,6 @@
+Train1 Code: BBA45 Date: 01:04:2024 DepStation: Michigan ArrStation: Chicago Km: 100 NWagons: 3
+Train2 Code: ACDF2 Date: 12:09:2024 DepStation: Michigan ArrStation: Detroit Km: 120 NWagons: 2
+Train3 Code: FFG03 Date: 05:05:2024 DepStation: Michigan ArrStation: Cleveland Km: 200 NWagons: 2
+Train4 Code: CBDC7 Date: 09:07:2024 DepStation: Michigan ArrStation: Columbus Km: 150 NWagons: 2
+Train5 Code: JSA66 Date: 10:06:2024 DepStation: Michigan ArrStation: Indianapolis Km: 320 NWagons: 2
+
