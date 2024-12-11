@@ -28,7 +28,7 @@ This project uses C++ to simulate a train network, with core functionality to re
 ![Use Case Diagram - Extended](artifacts/Usecasex_TrainHub.png)
 
 ## Use Case Diagram Description
-![Use Case Description](artifacts/UseCaseDescription.png)
+![Use Case Description](artifacts/UseCaseDescription.md)
 
 ## Class Diagram
 ![Class Diagram](artifacts/ClassDiagram.png)
