@@ -31,6 +31,7 @@ This document details the functional and non-functional requirements of the trai
  |FR13 |The system must notify users if a train or passenger is not found.| 
  |FR14 |The main menu must provide clear and functional options for adding trips, removing trips, querying data, and ending the program. Each option must redirect the user to the appropriate function.|
  |FR15 |Base files (wagon.txt, passenger.txt, train.txt) must be updated with any modifications made during the program's execution.|
+ |FR16 |Passengers with more than one trip must be listed with all their details when queried, highlighting the trains involved.|
  
 ## Non-Functional Requirements
  ### Performance
