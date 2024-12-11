@@ -1,6 +1,6 @@
 ## Use Case :
 
-# Add a Trip to the passenger's record.
+Add a Trip to the passenger's record.
 
 ## Description:
 
