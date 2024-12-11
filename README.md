@@ -17,8 +17,7 @@ This project uses C++ to simulate a train network, with core functionality to re
 - Basic Knowledge of HTML and CSS: Understanding how to create the structure and design of a frontend.
 
 ## Installation and Setup
-1. **Clone the repository**:
-   
+1. **Clone the repository**
    ```bash
    git clone https://github.com/lauuramarttin/GVSU-CIS350-DynamicDuo.git
 
@@ -26,6 +25,37 @@ This project uses C++ to simulate a train network, with core functionality to re
    ```bash
    cd GVSU-CIS350-DynamicDuo
    cd src
+
+In the src folder, you will find the three text files with the necessary information to run the program (train.txt, passenger.txt, wagon.txt). The complete program is contained in the file code.c, which is the file you will run.
+
+## Building and Running
+1. **Compile the Code**
+   Use your preferred C++ compiler to compile the program. For example, using g++:
+   ```bash
+   g++ -o TrainSystem code.c
+
+2. **Run the Program**
+   Execute the compiled program:
+   ```bash
+   ./TrainSystem
+
+3. **Follow the Menu Options**
+   The program will display a menu with options to:
+   1. Add a new passenger’s trip to a train.
+   2. Remove a passenger’s trip.
+   3. Show trips of a passenger.
+   4. Show a list of passengers on a specific train.
+   5. End the program.
+
+## Output
+At the end of the program, updated versions of the input files (train.txt, passenger.txt, wagon.txt) and an additional Output.txt file with organized information will be generated in the same directory.
+
+## Support
+For any issues or questions, feel free to contact our team at the following emails:
+martinyl@mail.gvsu.edu
+tonderj@mail.gvsu.edu
+   
+
 
 ## Gantt Chart
 ![Gantt Chart](artifacts/CIS350_GanttChart.png)
