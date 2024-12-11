@@ -20,7 +20,12 @@ This project uses C++ to simulate a train network, with core functionality to re
 1. **Clone the repository**:
    
    ```bash
-   git clone
+   git clone https://github.com/lauuramarttin/GVSU-CIS350-DynamicDuo.git
+
+2. **Navigate to the Source Folder**
+   ```bash
+   cd GVSU-CIS350-DynamicDuo
+   cd src
 
 ## Gantt Chart
 ![Gantt Chart](artifacts/CIS350_GanttChart.png)
