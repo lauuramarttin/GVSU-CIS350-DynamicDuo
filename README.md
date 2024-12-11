@@ -16,7 +16,11 @@ This project uses C++ to simulate a train network, with core functionality to re
 - Use of Trello: Ability to organize tasks and track project progress.
 - Basic Knowledge of HTML and CSS: Understanding how to create the structure and design of a frontend.
 
-## Run Instructions
+## Installation and Setup
+1. **Clone the repository**:
+   
+   ```bash
+   git clone
 
 ## Gantt Chart
 ![Gantt Chart](artifacts/CIS350_GanttChart.png)
