@@ -41,7 +41,7 @@ This document details the functional and non-functional requirements of the trai
  |NFR2 |Searches and assignments must execute efficiently using maps and lists.| 
  |NFR3 |File operations must minimize reading and writing times.| 
  |NFR4 |The system must load initial data from the passenger.txt, train.txt, and wagon.txt files in less than 5 seconds.|
- |NFR5 |The application must recover gracefully from unexpected terminations by saving partial data.|
+ |NFR5 |The system must handle up to 100 trains and 1,000 passengers without slowing down or using excessive memory.|
 
  ### Usability
  | ID | Requirement |
@@ -53,9 +53,16 @@ This document details the functional and non-functional requirements of the trai
  |NFR10 |All information displayed, such as passenger lists or trip details, should be organized and well-structured for easy reading.|
 
   ### Maintainability
-
+ | ID | Requirement |
+ |----|-------------| 
+ |NFR11 |Developers must be able to add new functionalities without altering the basic structure.| 
+ |NFR12 |Each module must be documented with explanatory comments.| 
+ |NFR13 |Version control (e.g., Git) must be used for managing changes to the codebase, ensuring the ability to track, review, and roll back modifications when necessary.| 
+ |NFR14 |The codebase must follow a modular structure, separating concerns into distinct classes and functions for easy debugging and extension.|
+ |NFR15 |The application must be compatible with future versions of the C++ compiler, adhering to standard coding practices and avoiding deprecated features.|
 
  
 # Software Artifacts
- <Describe the purpose of this section>
+This section provides access to the software artifacts utilized during the development of TrainHub. It includes links to essential documents and resources that supported the project's design, implementation, and testing processes.
+
 * [I am a link](to_some_file.pdf)
